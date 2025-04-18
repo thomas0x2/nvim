@@ -2,7 +2,6 @@
 
 # === Set up paths ===
 echo "🔧 Configuring PATHs..."
-mkdir -p ~/.local/bin ~/.config/nvim
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"

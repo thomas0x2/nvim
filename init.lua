@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<C-q>", vim.cmd.Ex)
 vim.keymap.set("n", "<C-s>", vim.cmd.w)
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.wo.number = true
